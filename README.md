@@ -1,6 +1,6 @@
-# review-check
+# statichtml-review-check
 
-納品HTMLの受け入れレビュー自動チェックツール。
+納品静的HTMLの受け入れレビュー自動チェックツール。
 以下の4点を自動検証します。
 
 - HTML Living Standard バリデーション（vnu）
@@ -120,12 +120,3 @@ npx playwright install chromium
 
 更新時はリリースノートを確認してください：
 https://github.com/dequelabs/axe-core/releases
-
-### .gitignore の確認
-
-以下がGit管理対象外になっていることを確認してください。
-```
-node_modules/
-reports/
-public/
-```
